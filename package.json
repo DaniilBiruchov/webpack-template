@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DaniilBiruchov/webpack-template/issues"
   },
-  "homepage": "https://github.com/DaniilBiruchov/webpack-template#readme"
+  "homepage": "https://github.com/DaniilBiruchov/webpack-template#readme",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
