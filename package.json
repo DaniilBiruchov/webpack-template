@@ -1,22 +1,33 @@
 {
-  "name": "webpack-template",
+  "name": "template-webpack",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaniilBiruchov/webpack-template.git"
+    "url": "git+https://github.com/gromalex/template-webpack.git"
   },
-  "author": "Daniil",
+  "author": "Alexey",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DaniilBiruchov/webpack-template/issues"
+    "url": "https://github.com/gromalex/template-webpack/issues"
   },
-  "homepage": "https://github.com/DaniilBiruchov/webpack-template#readme",
-  "dependencies": {
+  "homepage": "https://github.com/gromalex/template-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "sass": "^1.49.8",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
   }
